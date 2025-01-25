@@ -1,0 +1,73 @@
+/* General styles for the Courses page */
+.courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Style for each individual course block */
+  .courseBox {
+    background-color: grey;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .courseBox:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .courseBox h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .courseBox p {
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .courseBox img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+  
+  /* Style for loading and error messages */
+  .loading, .error {
+    font-size: 1.2rem;
+    color: #ff6f61;
+    text-align: center;
+    padding: 20px;
+  }
+  /* Style for the course button */
+.courseBox button {
+    background-color: #303841; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  }
+  
+  .courseBox button:hover {
+    background-color: black; /* Slightly darker green when hovered */
+    transform: translateY(-3px); /* Slight lift effect */
+  }
+  
+  .courseBox button:focus {
+    outline: none; /* Remove outline on focus */
+    box-shadow: 0 0 5px rgba(72, 154, 72, 0.5); /* Add shadow when focused */
+  }
+  

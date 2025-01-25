@@ -1,0 +1,76 @@
+/* General styles for the form */
+.sign-up-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Title styles */
+  .sign-up-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Input field styles */
+  .sign-up-input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .sign-up-input:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  /* Checkbox styles */
+  .admin-checkbox {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .admin-checkbox-input {
+    margin-right: 10px;
+  }
+  
+  .admin-checkbox-label {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Button styles */
+  .sign-up-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .sign-up-button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+  }
+  
+  .sign-up-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(72, 154, 72, 0.5);
+  }
+  

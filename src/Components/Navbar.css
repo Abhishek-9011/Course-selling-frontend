@@ -1,0 +1,78 @@
+/* Navbar Layout */
+.navbar {
+  position: relative;
+  display: flex;
+  height: 60px;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+/* Logo Styling */
+.logo {
+  /* margin-left: 40px;  */
+  height: 55px;
+  border-radius: 5px;
+}
+
+/* Button Container */
+.buttons {
+  display: flex;
+  gap: 40px;
+  /* margin-right: 40px; */
+}
+
+/* General Button Styling */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Login Button */
+.login button {
+  background-color: #31363f;
+  color: white;
+  border: 2px solid #31363f;
+  border-radius: 15px;
+}
+
+/* Signup Button */
+.Signup button {
+  background-color: #31363f;
+  color: white;
+  border: 2px solid #31363f;
+  border-radius: 15px;
+}
+
+/* Hover Effects for Buttons */
+.login button:hover {
+  background-color: #222831;
+  border-color: #222831;
+}
+
+.Signup button:hover {
+  background-color: #222831;
+  border-color: #222831;
+}
+
+/* Focus Effect for Accessibility */
+button:focus {
+  outline: none;
+}
+.userlogo{
+  height: 55px;
+}
+.logout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  font-size: 10px;
+  text-align: center;
+}

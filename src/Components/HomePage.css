@@ -1,0 +1,42 @@
+/* Layout for the entire page */
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-page {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0; 
+}
+
+/* 
+.navbar {
+  height: 60px; 
+  width: 100%;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px; 
+} */
+
+
+/* Hero Section styling */
+.hero {
+  color: #000;
+  flex: 1; /* This ensures that the hero section takes up the remaining space */
+  display: flex;
+  justify-content: center;
+  align-items: center;/* Example background color */
+}
+
+/* Optional: Adjust typography and font sizes */
+body {
+  font-family: Arial, sans-serif;
+}
